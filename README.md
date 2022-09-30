@@ -1,1 +1,4 @@
-# ARRAY-HIS-METHODS-
+# What is it array?
+# And
+# His methods?
+
