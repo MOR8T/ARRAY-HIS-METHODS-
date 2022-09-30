@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+}
+.container-max{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    .container-1{
+        width: 100%;
+        height: 100vh;
+        background-image:url(./img/fon1.png);
+        background-size: cover;
+        background-color: black;
+        display: grid;
+        place-items: center;
+        .content1-1{
+            h1{
+                font-size: 5em;
+                font-weight: 500;
+            }
+        }
+    }
+    .container-2{
+        width: 100%;
+        height: 100vh;
+        background-image: url(./img/fon4.jpg);
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 8vh 10vh 82vh;
+        .content2-1{
+            width: 80%;
+            text-align: center;
+            margin: auto;
+            p{
+                font-size: 2em;
+                font-weight: 500;
+            }
+        }
+        .content2-2{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            place-items: center;
+            img{
+                width: 90%;
+            }
+        }
+    }
+    .container-3{
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        background-image: url(./img/fon4.jpg);
+        background-size: cover;
+        .content3-1{
+            text-align: center;
+            h1{
+                margin: 50px;
+                font-size: 3em;
+                font-weight: 500;
+            }
+        }
+        .content3-2{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 10vh 40vh;
+            place-items: center;
+            img{
+                width: 100%;
+            }
+            .img1{
+                width: 70%;
+            }
+            .img2{
+                width: 60%;
+            }
+        }
+    }
+    .container-4{
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        background-image: url(./img/fon4.jpg);
+        background-size: cover;
+        .content4-1{
+            font-size: 2em;
+            table{
+                text-align: center;
+                border: 2px solid black;
+                background-color: white;
+                th{
+                    padding: 10px;
+                border: 2px solid black;
+                }
+                td{
+                    padding: 10px;
+                border: 2px solid black;
+                }
+            }
+        }
+    }
+    .container-5{
+        width: 100%;
+        height: auto;
+        display: grid;
+        background-image: url(./img/fon4.jpg);
+        background-size: cover;
+        grid-template-columns: 100%;
+        place-items: center;
+        h1{
+            margin: 50px;
+            font-size: 3em;
+            font-weight: 500;
+        }
+        img{
+            margin: 20px;
+        }
+        .content5-1{
+            .jsm1{
+                width: 80%;
+            }
+            border-bottom: 2px solid black;
+        }
+        .content5-2{
+            .jsm2{
+                width: 80%;
+            }
+            border-bottom: 2px solid black;
+        }
+        .content5-3{
+            .jsm3{
+                width: 80%;
+            }
+            border-bottom: 2px solid black;
+        }
+        .content5-4{
+            .jsm4{
+                width: 80%;
+            }
+            border-bottom: 2px solid black;
+        }
+        .content5-5{
+            .jsm5{
+                width: 80%;
+            }
+            border-bottom: 2px solid black;
+        }
+        .content5-6{
+            .jsm6{
+                width: 80%;
+            }
+            border-bottom: 2px solid black;
+        }
+        .content5-7{
+            .jsm7{
+                width: 80%;
+            }
+            border-bottom: 2px solid black;
+        }
+        .content5-8{
+            .jsm8{
+                width: 80%;
+            }
+            border-bottom: 2px solid black;
+        }
+        .content5-9{
+            .jsm9{
+                width: 85%;
+            }
+            border-bottom: 2px solid black;
+        }
+        .content5-10{
+            .jsm10{
+                width: 85%;
+            }
+            border-bottom: 2px solid black;
+        }
+        .content5-11{
+            .jsm11{
+                width: 85%;
+            }
+            border-bottom: 2px solid black;
+        }
+        .content5-12{
+            .jsm12{
+                width: 85%;
+            }
+            border-bottom: 2px solid black;
+        }
+        .content5-13{
+            .jsm13{
+                width: 85%;
+            }
+            border-bottom: 2px solid black;
+        }
+    }
+}
