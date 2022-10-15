@@ -116,6 +116,32 @@
 
 
 
-let arr = ["Shahrom" , "Faridun" , "Islom", "Rahim", "Anis"];
+// let arr = ["Shahrom" , "Faridun" , "Islom", "Rahim", "Anis"];
 
-console.log(arr.join(" ")); // Shahrom Faridun Islom Rahim Anis
+// console.log(arr.join(" ")); // Shahrom Faridun Islom Rahim Anis
+
+
+// let arr = [1,2,3,4,5];
+
+// console.log(arr.reduce((a,b) => a+b,0)); // 15
+
+
+
+// let arr = [1,2,3,4,5];
+
+// console.log(arr.map((e,i) => e+5)); // [ 6, 7, 8, 9, 10 ]
+
+
+// let arr = [1,2,3,4,5];
+// arr.forEach((e) => e);
+// console.log(arr);  // [ 1, 2, 3, 4, 5 ]
+
+
+// let arr = [1,2,3,4,5];
+
+// console.log(arr.filter((e) => e%2==0)); // [ 2, 4 ]
+
+
+let arr = [1,2,43,64,5];
+
+console.log(arr.sort((a,b) => a-b)); // [ 1, 2, 5, 43, 64 ]
